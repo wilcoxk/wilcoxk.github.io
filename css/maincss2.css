@@ -3,17 +3,19 @@
 
 body {
 	
-
-	background-image:url("../images/kyleshelf.jpg");  /* 910x436   Possibly going to resize to 915 width*/
+	
+	background-image:url("../image/portalheader.png");  /* 910x436   Possibly going to resize to 915 width*/
 	background-repeat:no-repeat;
 	background-position:top;
+	background-attachment: fixed;
+
 	
 
 	width:875px;
 	padding:10px;
 	border:5px solid gray;
 	margin:auto;  
-	margin-top:436px;
+	margin-top:200px;
          
 /* total width is 875+10+10+5+5=905 */
 
