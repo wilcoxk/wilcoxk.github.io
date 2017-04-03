@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box
+
+}
+
+
+
+body {
+	background: url("b51.png");
+ 	font-family: Helvetica, sans-serif;
+  	padding-bottom: 20px;
+	padding-top: 20px
+	
+}
+
+
+a:link, a:visited, a:active, a:hover {
+	text-decoration: none;
+}
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+}    
+
+
+.header {
+
+	max-width: 1280px;
+	margin: 0 auto 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.headeritem {
+	box-sizing: border-box;
+	flex-basis: 32%;
+	text-align: center;
+	margin: auto;
+}
+
+.gmailanddriveimg {
+	height: 100px;
+	
+}
+
+#gmail {
+	order: 1;
+	
+}
+
+#maintitle {
+	background-color: #000;
+	margin: 0 auto;	
+	border-radius: 25px;
+	opacity: .3;
+	transition: opacity 1s ease-out;
+	-webkit-transition: opacity 1s ease-out;
+	-moz-transition: opacity 1s ease-out;
+	-o-transition: opacity 1s ease-out;
+	font-size: 1.7em;
+	font-weight: bold;
+	order: 2;
+}
+
+#maintitle a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#maintitle:hover {
+	opacity: .7;
+	cursor: pointer;
+}
+
+#drive {
+	
+	order: 3;
+
+}
+
+/*  *********Start Main Links*************** */
+
+.mainlinks {
+	max-width: 1280px;
+  	margin: 0px auto 0px auto;
+  	line-height: 1.65;
+  	padding: 0px 50px;
+  	text-align: center;
+}
+
+.mainlinks h3 {
+	font-size: 2em;
+	color: orange;
+
+}
+
+.column {
+	padding: 20px;
+  	box-sizing: border-box;
+	flex-basis: 30%;
+	
+}
+
+.column a {	
+	width: 300px;
+	height: 40px;
+	margin: 3px;
+	color: #111;
+	opacity: .5;
+	font-size: 1.3em;
+	display: inline-block;
+	background: #eee;
+	border: 1px solid black;
+	border-radius: 20px;
+	-webkit-transition: opacity .7s ease-out;
+	-moz-transition: opacity .7s ease-out;
+	-o-transition: opacity .7s ease-out;
+	-transition: opacity .7s ease-out;
+}
+.column a:hover{
+	opacity: .9;
+	cursor: pointer;
+	
+/* *********** End Main Links Section ********** */	
+}
+
+.bottom {
+
+  max-width: 1280px;
+  margin: 0px auto 0px auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+ 
+
+}
+
+
+.bottomitem {
+	
+	flex-basis: 45%;
+}
+
+.bottomitem img {
+	height: 150px;
+
+}
+
+
+
+
+.mainfooter {
+	max-width: 1280px;
+	padding: 0px;
+	margin: auto;
+	
+
+}
+
+#footerlist ul li {
+	display: inline;
+	font-weight: bold;
+	
+	
+}
+
+#footerlist ul {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#footerlist a {
+	color: white;
+	margin: auto
+	
+	
+
+}
+
+
+
+/*    begin mobile layout css  */
+
+@media (min-width: 600px) {
+  .mainlinks {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+
+
+/*          ****** Random Extras *********
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic);
+
+ background-color: #BBB;
+height: 100%; 
+
+*/
+
