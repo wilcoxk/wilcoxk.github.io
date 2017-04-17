@@ -49,6 +49,7 @@ ul {
 
 #gmail {
 	order: 1;
+	flex: 1;   /** Zach look here **/
 	
 }
 
@@ -64,6 +65,7 @@ ul {
 	font-size: 1.7em;
 	font-weight: bold;
 	order: 2;
+	flex: 2;   /** Zach look here **/
 }
 
 #maintitle a {
@@ -79,6 +81,7 @@ ul {
 #drive {
 	
 	order: 3;
+	flex: 1;   /** Zach look here **/
 
 }
 
